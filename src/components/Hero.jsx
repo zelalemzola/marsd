@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className='flex flex-col items-center justify-center h-[80vh] gap-5 relative z-20'>
       <h1 className='text-2xl md:text-9xl text-primary font-bold'>Mars Design</h1>
-      <p className='text-lg md:text-2xl'>"Timeless Elegance, Ethiopian Heritage, Unparalleled Craftsmanship."</p>
+      <p className='text-lg md:text-2xl text-center'>"Timeless Elegance, Ethiopian Heritage, Unparalleled Craftsmanship."</p>
       <div className="absolute -z-20 top-40 w-full hidden md:flex items-center justify-between">
         <Image src='/hero1.png' alt='hero1' width={400} height={400}/>
         <Image src='/hero2.png' alt='hero1' width={400} height={400} className=' -mt-[20%]'/>
