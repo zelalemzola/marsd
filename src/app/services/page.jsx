@@ -1,4 +1,5 @@
-import BlurFade from '@/components/ui/blur-fade'
+
+import { BlurFade } from '@/components/magicui/blur-fade'
 import { Leaf } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'

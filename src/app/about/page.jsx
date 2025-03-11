@@ -1,5 +1,5 @@
-import AvatarCircles from '@/components/ui/avatar-circles';
-import BlurFade from '@/components/ui/blur-fade';
+
+import { BlurFade } from '@/components/magicui/blur-fade';
 import { Crosshair, Telescope, Leaf } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
@@ -126,7 +126,7 @@ const AboutPage = () => {
              <p className='text-gray-400 dark:text-gray-300 text-lg py-7'>
               Behind Tena Meaza is a passionate, multicultural team committed to connecting farms to families.
              </p>
-              <AvatarCircles numPeople={99} avatarUrls={avatars} />
+             
         </div>
     </div>
   )
