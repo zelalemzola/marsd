@@ -23,7 +23,7 @@ const Navbar = () => {
             <Link className='text-gray-600 hover:text-primary text-lg dark:text-white dark:hover:text-primary' href='/about'>About</Link>
             <Link className='text-gray-600 hover:text-primary text-lg dark:text-white dark:hover:text-primary' href='/services'>Services</Link>
             <Link className='text-gray-600 hover:text-primary text-lg dark:text-white dark:hover:text-primary' href='/blogs'>Blog</Link>
-            <Link className='text-gray-600 hover:text-primary text-lg dark:text-white dark:hover:text-primary' href='/workers'>Workers</Link>
+            {/* <Link className='text-gray-600 hover:text-primary text-lg dark:text-white dark:hover:text-primary' href='/workers'>Workers</Link> */}
             
         </div>
         <div className='flex items-center gap-4'>
@@ -40,7 +40,7 @@ const Navbar = () => {
             <Link className='text-gray-600 hover:bg-primary hover:text-white text-lg dark:text-white dark:hover:bg-secondary px-3 py-2 rounded-xl' href='/about'>About</Link>
             <Link className='text-gray-600 hover:bg-primary hover:text-white text-lg dark:text-white dark:hover:bg-secondary px-3 py-2 rounded-xl' href='/services'>Services</Link>
             <Link className='text-gray-600 hover:bg-primary hover:text-white text-lg dark:text-white dark:hover:bg-secondary px-3 py-2 rounded-xl' href='/blogs'>Blog</Link>
-            <Link className='text-gray-600 hover:bg-primary hover:text-white text-lg dark:text-white dark:hover:bg-secondary px-3 py-2 rounded-xl' href='/workers'>Workers</Link>
+            {/* <Link className='text-gray-600 hover:bg-primary hover:text-white text-lg dark:text-white dark:hover:bg-secondary px-3 py-2 rounded-xl' href='/workers'>Workers</Link> */}
             
                   </div>
                <DrawerFooter>

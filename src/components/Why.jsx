@@ -27,21 +27,21 @@ const Why = () => {
      <div className="flex flex-col md:flex-row gap-6 items-center my-6">
       <BlurFade  delay={0.35} inView>
       <div className="flex flex-col items-center gap-4 hover:shadow-xl w-full  border shadow-lg rounded-2xl px-4 py-5">
-        <Image src='/prem.jpg' alt='Quality' width={270} height={270}/>
+        <Image src='/prem.jpg' alt='Quality' width={290} height={290}/>
         <h2 className='text-2xl text-nowrap'>Premium Handwoven Cotton </h2>
         <p className='text-gray-400 dark:text-gray-200 w-full text-center'>Sustainably sourced, finest quality, breathable, and soft.</p>
       </div>
       </BlurFade>
        <BlurFade  delay={0.45} inView>
       <div className="flex flex-col items-center gap-4 hover:shadow-xl w-full  border shadow-lg rounded-2xl px-4 py-5">
-        <Image src='/product1.jpg' alt='Quality' width={200} height={200}/>
+        <Image src='/h2.png' alt='Quality' width={120} height={120}/>
         <h2 className='text-2xl text-nowrap'>Custom Luxury Attire </h2>
         <p className='text-gray-400 dark:text-gray-200 w-full text-center'>Designed exclusively per client’s specifications.</p>
       </div>
       </BlurFade>
       <BlurFade  delay={0.55} inView>
       <div className="flex flex-col items-center gap-4 hover:shadow-xl w-full  border shadow-lg rounded-2xl px-4 py-5">
-        <Image src='/product2.jpg' alt='Quality' width={200} height={200}/>
+        <Image src='/h1.png' alt='Quality' width={200} height={200}/>
         <h2 className='text-2xl text-nowrap'>Elite Clientele & Exclusivity</h2>
         <p className='text-gray-400 dark:text-gray-200 w-full text-center'>Worn by high-profile figures, available only to select clients.</p>
       </div>

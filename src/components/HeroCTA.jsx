@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function HeroCTA() {
     return (
       <div
-        className="relative w-[80%] rounded-2xl mx-auto h-[50vh] flex items-center justify-center bg-center text-white"
-        style={{
-          backgroundImage: "url('/cta.jpg')",
-        }}
+        className="relative w-[80%] rounded-2xl mx-auto h-[50vh] flex items-center justify-center bg-center bg-secondary text-white"
+        // style={{
+        //   backgroundImage: "url('/cta.jpg')",}
+        // }
       >
         {/* Overlay for better text visibility */}
         <div className="absolute inset-0  bg-opacity-50"></div>
