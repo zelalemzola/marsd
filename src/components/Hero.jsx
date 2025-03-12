@@ -13,7 +13,7 @@ const Hero = () => {
         <Image src='/h2.png' alt='hero1' width={200} height={200}/>
         <Image src='/h1.png' alt='hero1' width={300} height={300} className=' -mt-[20%]'/>
       </div>
-      <div className='flex flex-wrap items-center gap-6'>
+      <div className='flex flex-col md:flex-row mx-auto items-center gap-6'>
         <Link className='py-2 px-4 rounded-full border-1 border-primary flex items-center gap-3' href='/'>Explore Collections <ArrowRightIcon/></Link>
         <Link className='py-2 px-4 rounded-full bg-primary flex items-center gap-3 text-white' href='/'>Custom Order Now !<ArrowRightIcon/></Link>
       </div>
