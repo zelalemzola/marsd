@@ -1,4 +1,5 @@
 
+import HeroCTA from '@/components/HeroCTA';
 import { BlurFade } from '@/components/magicui/blur-fade';
 import { Crosshair, Telescope, Leaf, Pen, Diamond, DiamondIcon } from 'lucide-react'
 import Image from 'next/image'
@@ -119,6 +120,53 @@ From consultation to final fitting, we ensure a seamless, private, and premium e
               </BlurFade>
              
               </div>
+        </div>
+        <div className='h-auto py-10 md:py-20'>
+          <div className='border-l-8 border-l-secondary pb-4 px-3'>
+             <BlurFade  delay={0.45} inView>
+                <h1 className=' text-3xl md:text-5xl  font-bold'>Luxury Custom-Made Process</h1>
+                </BlurFade>
+             <BlurFade  delay={0.45} inView>
+                <p className=' text-lg md:text-xl '>Step-by-step walkthrough:
+                </p>
+                </BlurFade>
+              </div>
+              <div className='flex items-center flex-wrap gap-5 py-20'>
+                 <BlurFade  delay={0.55} inView>
+              <div className="flex flex-col items-center gap-3">
+                <p className="px-4 py-1 rounded-full bg-primary text-xl md:text-2xl w-fit">1</p>
+                <h2 className="flex items-center gap-2 font-bold text-xl md:text-2xl">Exclusive Consultation</h2>
+                <p className="text-lg ">Personalized 1-on-1 session.</p>
+              </div>
+              </BlurFade>
+                 <BlurFade  delay={0.55} inView>
+              <div className="flex flex-col items-center gap-3">
+                <p className="px-4 py-1 rounded-full bg-primary text-xl md:text-2xl w-fit">2</p>
+                <h2 className="flex items-center gap-2 font-bold text-xl md:text-2xl">Concept & Sketching</h2>
+                <p className="text-lg ">Tailored sketches based on client vision.</p>
+              </div>
+              </BlurFade>
+                 <BlurFade  delay={0.55} inView>
+              <div className="flex flex-col items-center gap-3">
+                <p className="px-4 py-1 rounded-full bg-primary text-xl md:text-2xl w-fit">3</p>
+                <h2 className="flex items-center gap-2 font-bold text-xl md:text-2xl">Fabric & Material Selection</h2>
+                <p className="text-lg ">Clients choose premium cotton variations.</p>
+              </div>
+              </BlurFade>
+                 <BlurFade  delay={0.55} inView>
+              <div className="flex flex-col items-center gap-3">
+                <p className="px-4 py-1 rounded-full bg-primary text-xl md:text-2xl w-fit">4</p>
+                <h2 className="flex items-center gap-2 font-bold text-xl md:text-2xl">Precision Tailoring & Handcrafting</h2>
+                <p className="text-lg ">In-house artisans craft each detail.</p>
+              </div>
+              </BlurFade>
+              
+               
+             
+              </div>  
+               <BlurFade  delay={0.65} inView>
+              <HeroCTA/>
+              </BlurFade>
         </div>
         
     </div>
