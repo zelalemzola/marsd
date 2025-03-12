@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Leaf, Linkedin, Twitter } from 'lucide-react'
+import { Facebook, Instagram, Leaf, Linkedin, Mail, MapIcon, MapPin, PhoneCall, Twitter } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -21,14 +21,33 @@ const Footer = () => {
                 <Link href='/' className='text-sm md:text-md text-primary font-light'>Terms and conditions</Link>
               </div>
             </div>
-        </div>
-        <div className="flex flex-row flex-wrap gap-7 md:gap-20">
-              <Instagram className='text-lg text-primary  p-1  font-bold scale-[200%]' />
-              <Facebook className='text-lg text-primary  p-1   font-bold scale-[200%]' />
-              <Twitter className='text-lg text-primary p-1   font-bold scale-[200%]' />
-              <Linkedin className='text-lg text-primary p-1  font-bold scale-[200%]' />
+            <div className="flex flex-row flex-wrap gap-7 md:gap-10">
+              <Instagram className='text-lg text-primary  p-1  font-bold scale-[140%]' />
+              <Facebook className='text-lg text-primary  p-1   font-bold scale-[140%]' />
+              <Twitter className='text-lg text-primary p-1   font-bold scale-[140%]' />
+              <Linkedin className='text-lg text-primary p-1  font-bold scale-[140%]' />
 
         </div>
+        </div>
+       
+    
+        <div className="flex items-center w-full mx-auto flex-col md:flex-row gap-5 text-primary text-md">
+              <div className="flex flex-col items-center gap-3">
+                <PhoneCall/>
+                <p className="">+251 91 326 4140 / +251911653782</p>
+              </div>
+              <div className="flex flex-col items-center gap-3">
+                <Mail/>
+                <p className="">marsdesign2016@gmail.com</p>
+              </div>
+              <div className="flex flex-col items-center gap-3">
+                <MapPin/>
+                <p className="">Sheger city Gelan subcity administration</p>
+              </div>
+              
+
+        </div>
+     
     </div>
   )
 }
