@@ -31,7 +31,8 @@ const Footer = () => {
         </div>
        
     
-        <div className="flex items-center w-full mx-auto flex-col md:flex-row gap-5 text-primary text-md">
+        <div className="flex items-center  w-full md:w-auto
+         mx-auto flex-col md:flex-row gap-5 text-primary text-md">
               <div className="flex flex-col items-center gap-3">
                 <PhoneCall/>
                 <p className="">+251 91 326 4140 / +251911653782</p>
