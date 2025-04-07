@@ -27,12 +27,12 @@ const Services = () => {
                     <p className='text-gray-400  dark:text-gray-200 md:text-lg'>At Mars Design, we offer more than just clothing—we offer a luxury experience tailored to your style, comfort, and prestige. Our services are designed for those who seek exclusivity, craftsmanship, and modern elegance infused with Ethiopian tradition.</p>
                   </BlurFade>
                   </div>
-                  <div className='flex flex-row  items-end justify-center gap-5 w-full md:w-1/2 -mt-20'>
+                  <div className='flex flex-row  items-end justify-center gap-5 w-full md:w-1/2 md:-mt-20'>
                    <BlurFade  delay={0.65} inView>
                    <Image src='/shelf.jpg' alt='about' width={320} height={320} className='rounded-3xl'/>
                    </BlurFade>
                    <BlurFade  delay={0.65} inView>
-                   <Image src='/pillows.jpg' alt='about' width={250} height={250} className='rounded-3xl'/>
+                   <Image src='/pillows.jpg' alt='about' width={250} height={250} className='rounded-3xl hidden md:flex'/>
                    </BlurFade>
                      
                   </div>
