@@ -60,7 +60,7 @@ From consultation to final fitting, we ensure a seamless, private, and premium e
                   </div>
                   <div className='flex justify-center items-center w-full md:w-1/2'>
                    <BlurFade  delay={0.65} inView>
-                   <Image src='/h1.png' alt='about' width={320} height={420} className=''/>
+                   <Image src='/people.jpg' alt='about' width={400} height={400} className='rounded-2xl -mt-10'/>
                   </BlurFade>
                   
                   </div>

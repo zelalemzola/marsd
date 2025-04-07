@@ -25,7 +25,7 @@ const Promise = () => {
      <div className="flex flex-col md:flex-row gap-6 items-center my-6">
         <BlurFade  delay={0.55} inView>
       <div className="flex flex-col items-center gap-4 hover:shadow-xl w-full  border shadow-lg rounded-2xl px-4 py-5">
-        <Image src='/prem.jpg' alt='Quality' width={100} height={100}/>
+        <Image src='/shmena.jpg' alt='Quality' width={150} height={150}/>
         <h2 className='text-2xl text-nowrap'>Unmatched Craftsmanship </h2>
         <p className='text-gray-400 dark:text-gray-200 w-full text-center'> Every piece is meticulously handcrafted using the finest Ethiopian cotton, ensuring superior quality and lasting elegance.</p>
       </div>
