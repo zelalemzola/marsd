@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import HeroCTA from "@/components/HeroCTA";
 import Partners from "@/components/Partners";
+import Products from "@/components/Products";
 import Promise from "@/components/Promise";
 import Why from "@/components/Why";
 import Image from "next/image";
@@ -11,6 +12,7 @@ export default function Home() {
      <Hero/>
      <Partners/>
      <Why/>
+     <Products/>
      <Promise/>
      <HeroCTA/>
     </div>
